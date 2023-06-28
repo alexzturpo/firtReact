@@ -1,0 +1,53 @@
+/* :root {
+  --color1: #ffffff;
+  --color2: #000000;
+  --color3: #bdb235;
+  --color4: #db6623;
+  --color5: #3e5eb3;
+  --color6: #aa9e5c;
+}
+
+{
+  box-sizing: border-box;
+  font-family: 'Font Name', Arial, sans-serif;
+}
+
+.card {
+  float: left;
+  position: relative;
+  width: calc(100% * 0.3333 - 30px + 0.3333 * 30px);
+  height: 340px;
+  margin: 0 30px 30px 0;
+  perspective: 1000;
+  background-color: #aa9e5c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card__num{
+    font-size: 2rem;
+} */
+.cripto{
+  border: 1px solid skyblue;
+  border-left: 10px solid skyblue;
+  border-radius: 5px;
+  padding: 1rem;
+}
+.info{
+  color: rgb(160, 160, 160);
+}
+.label{
+  color: skyblue;
+}
+.positivo{
+  color: greenyellow;
+}
+.negativo{
+  color: red;
+}
+.Link{
+  text-decoration: none;
+  color: rgb(0, 255, 102);
+  font-weight: lighter;
+}

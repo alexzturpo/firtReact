@@ -1,0 +1,27 @@
+.main-menu ul {
+    display: flex;
+    flex-direction: row;
+
+    
+    list-style: none;
+    font-size: 2rem;
+
+}
+.logo{
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    text-decoration: none; 
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+nav li{
+    padding: 0 1rem;
+}
+li>*{
+    text-decoration: none; 
+    color: white;
+}
